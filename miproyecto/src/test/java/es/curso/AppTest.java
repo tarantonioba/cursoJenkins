@@ -55,7 +55,7 @@ public class AppTest
         assertEquals( resultado, 5 );
     }
     @Test
-    public oid pruebaMayorNegativos(){
+    public void pruebaMayorNegativos(){
         int resultado=App.mayor(5,-10);
         assertEquals( resultado, 5 );
     }
